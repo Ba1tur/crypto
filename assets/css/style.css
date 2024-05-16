@@ -2773,6 +2773,23 @@ header.absolute {
 
 /* New class */
 
+:root {
+  /* Scale setup */
+  --button-height: 40; /* in px */
+  --height-to-scale: 33; /* in px */
+  --scale-ratio: calc(var(--height-to-scale) / var(--button-height));
+
+  /* Slide setup */
+  --button-height-px: 27px;
+  --button-vertical-padding-px: 6px;
+  --button-content-spacing-px: calc(
+    var(--button-height-px) + var(--button-vertical-padding-px) * 2
+  );
+  --slide-step-1: calc(var(--button-height-px) * -1);
+  --slide-step-2: calc(var(--button-height-px) * -2);
+}
+
+
 .adress{
   margin: 60px 0 20px 0;
 }
@@ -2784,6 +2801,27 @@ header.absolute {
 .wallet-block{
   gap: 10px;
 }
+
+.copy-btn{
+  
+}
+
+.copy-btn {
+  transition: 0.3s;
+}
+
+.copy-btn .copied {
+  background-color: #28a745;
+  transform: scale(1.1);
+}
+
+.copy-btn .copied::after {
+  content: 'COPIED';
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+}
+
 
 .wallet-adress{
   width: 530px;

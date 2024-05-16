@@ -102,7 +102,16 @@ function switchTheme() {
 }
 
 
-function copyText() {
+function copyText(button) {
     navigator.clipboard.writeText
         ("BdCvFFEJaehjxXC3UbjiQaCZXYUh1ZWMRFfagaSeR22L");
+
+    button.classList.add('copied');
+    button.textContent = 'COPIED!';
+
+    // Возвращаем текст кнопки обратно через 2 секунды
+    setTimeout(() => {
+        button.classList.remove('copied');
+        button.textContent = 'COPY';
+    }, 4000);
 }
