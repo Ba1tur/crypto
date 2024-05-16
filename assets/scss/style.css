@@ -1514,7 +1514,7 @@ header.absolute {
   color: var(--primary-color5);
 }
 .popup-user .avatar_popup .title {
-  font-size: 14px;
+  font-size: 24px;
   line-height: 22px;
   margin-bottom: 5px;
   color: var(--primary-color5);

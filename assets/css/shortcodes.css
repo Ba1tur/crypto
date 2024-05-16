@@ -1481,9 +1481,8 @@
 /* Slider -------------
 ------------------------------------*/
 .tf-slider {
-  background: url("../images/slider/bg-slider.png") center center no-repeat;
-  background-size: cover;
   position: relative;
+  background-color: #040B11;
 }
 .tf-slider::after {
   content: "";

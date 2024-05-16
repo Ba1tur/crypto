@@ -1131,10 +1131,11 @@ header #site-header-inner {
   display: -webkit-flex;
   align-items: center;
   justify-content: left;
+  padding-top: 15px;
 }
 header #site-header-inner #site-logo {
   flex-shrink: 0;
-  margin-right: 68px;
+  margin-right: 108px;
 }
 header #site-header-inner #main-nav {
   flex-shrink: 1;
@@ -1872,11 +1873,23 @@ header.absolute {
 /* Footer
 -------------------------------------------------------------- */
 .footer {
-  background: url("../images/background/bg-footer.jpg") center center no-repeat;
+  position: relative;
+  background: url("../images/background/bg-footer (2).png") center center no-repeat;
   background-size: cover;
 }
+.footer:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8); 
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
 .footer .footer-inner {
-  padding: 61px 0 40px;
+  padding: 61px 0 80px;
 }
 .footer .widget.widget-infor {
   padding-right: 30%;
@@ -2761,7 +2774,7 @@ header.absolute {
 /* New class */
 
 .adress{
-  margin: 120px 0 120px 0;
+  margin: 60px 0 20px 0;
 }
 
 .adress h2 {
@@ -2797,4 +2810,69 @@ header.absolute {
 .buy-text{
   color: var(--primary-color3);
   margin: 120px 0 25px 0;
+}
+
+.social-items{
+  margin-top: 60px;
+}
+
+.social-items li{
+  gap: 25px;
+}
+
+.social-items a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s ease;
+}
+
+.text-size{
+  font-size: 50px;
+}
+
+.social-items a:hover{
+    font-size: 50px;
+    color: #01FFF4;
+    box-shadow: 0 0 40px #01FFF4;
+}
+
+.main-logo{
+  width: 200px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-header{
+  width: 120px;
+  height: 100px;
+}
+
+.main-logo h5 {
+  white-space: nowrap;
+  font-size: 26px;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin-right: 50px;
+}
+
+.footer-logo img{
+  width: 70px;
+  height: 70px;
+  margin-right: 0 !important;
+}
+
+.footer-logo h5{
+  white-space: nowrap;
+  font-size: 23px;
 }
