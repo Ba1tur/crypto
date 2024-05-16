@@ -1211,7 +1211,7 @@ header.absolute {
 #main-nav > ul > li > a {
   font-family: "Bakbak One";
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   display: block;
@@ -2875,4 +2875,9 @@ header.absolute {
 .footer-logo h5{
   white-space: nowrap;
   font-size: 23px;
+}
+
+.icon-size{
+  width: 92px;
+  /* height: 120px; */
 }

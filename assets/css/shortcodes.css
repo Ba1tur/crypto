@@ -92,6 +92,7 @@
 }
 .text-green{
   color: var(--primary-color5);
+  font-weight: 500;
 }
 .tf-heading.style-2 {
   text-align: left;
@@ -318,6 +319,9 @@
   padding: 20px 20px 34px;
   margin-bottom: 30px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -326,7 +330,7 @@
 }
 .tf-work .image {
   margin-bottom: 15px;
-  height: 72px;
+  height: 92px;
 }
 .tf-work .title {
   color: var(--primary-color3);
