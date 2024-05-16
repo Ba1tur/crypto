@@ -2750,6 +2750,7 @@
   z-index: 4;
 }
 .section-roadmap2 .shape2 {
+  display: none;
   position: absolute;
   bottom: 14%;
   left: 11%;
