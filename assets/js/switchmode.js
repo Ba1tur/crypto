@@ -112,3 +112,4 @@ function copyText(button) {
         button.classList.remove('copied');
     }, 2000);
 }
+
