@@ -3025,10 +3025,10 @@ header.absolute {
 }
 
 .story-img{
-  width: 900px;
-  height: 450px;
+  width: 650px;
+  /* height: 800px; */
   margin-top: 50px;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 /* @media screen and (max-width: 576px) {
