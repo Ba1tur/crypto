@@ -168,34 +168,34 @@
 
     // Header Fixed
     var headerFixed = function () {
-        if ($('body').hasClass('header-fixed')) {
-            var nav = $('.header');
-            if (nav.length) {
-                var offsetTop = nav.offset().top,
-                headerHeight = nav.height(),
-                injectSpace = $('<div />', {
-                    height: headerHeight
-                }).insertAfter(nav);
-                injectSpace.hide();
-                $(window).on('load scroll', function () {
-                    if ($(window).scrollTop() > 400) {
-                        nav.addClass('is-fixed');
-                        injectSpace.show();
-                    } else {
-                        nav.removeClass('is-fixed');
-                        injectSpace.hide();
-                    }
+        // if ($('body').hasClass('header-fixed')) {
+        //     var nav = $('.header');
+        //     if (nav.length) {
+        //         var offsetTop = nav.offset().top,
+        //         headerHeight = nav.height(),
+        //         injectSpace = $('<div />', {
+        //             height: headerHeight
+        //         }).insertAfter(nav);
+        //         injectSpace.hide();
+        //         $(window).on('load scroll', function () {
+        //             if ($(window).scrollTop() > 400) {
+        //                 nav.addClass('is-fixed');
+        //                 injectSpace.show();
+        //             } else {
+        //                 nav.removeClass('is-fixed');
+        //                 injectSpace.hide();
+        //             }
 
-                    if ($(window).scrollTop() > 500) {
-                        nav.addClass('is-small');
+        //             if ($(window).scrollTop() > 500) {
+        //                 nav.addClass('is-small');
                         
-                    } else {
-                        nav.removeClass('is-small');
+        //             } else {
+        //                 nav.removeClass('is-small');
                         
-                    }
-                })
-            }
-        }
+        //             }
+        //         })
+        //     }
+        // }
     };
 
     // Mobile Navigation
