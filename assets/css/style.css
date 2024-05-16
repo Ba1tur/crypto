@@ -2791,7 +2791,7 @@ header.absolute {
 
 
 .adress{
-  margin: 60px 0 20px 0;
+  margin: 80px 0 20px 0;
 }
 
 .adress h2 {
@@ -2804,8 +2804,10 @@ header.absolute {
 }
 
 .wallet-block{
+  width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -2839,6 +2841,18 @@ header.absolute {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.saga-text{
+  color: var(--primary-color3);
+  text-align: center;
+  margin-top: 6%;
+}
+
+.line{
+  width: 1100px;
+  margin-top: 60px;
+  border: 2px solid #21e786;
 }
 
 .default-text, .copied-text {

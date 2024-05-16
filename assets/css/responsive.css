@@ -179,6 +179,7 @@
   }
   .footer.style-2 .bottom .content-left, .footer.style-2 .bottom .menu-bottom {
     justify-content: center;
+    flex-wrap: wrap;
   }
   .footer.style-2 .bottom .menu-bottom li {
     margin-right: 20px;
