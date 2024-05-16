@@ -828,6 +828,13 @@ label.error {
 	margin: -55px 0 0;
 }
 
+.roadmap-fix::before{
+  display: block;
+	content: "";
+	height: 145px;
+	margin: -55px 0 0;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   width: 48px;
