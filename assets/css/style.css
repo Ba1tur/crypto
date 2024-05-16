@@ -134,6 +134,10 @@ video {
   font-weight: inherit;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 article,
 aside,
 details,

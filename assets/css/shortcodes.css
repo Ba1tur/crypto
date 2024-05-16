@@ -1512,6 +1512,7 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  justify-content: center;
   padding: 97px 2% 143px 12.5%;
 }
 .tf-slider-item .content-inner {
