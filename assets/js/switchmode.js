@@ -106,12 +106,9 @@ function copyText(button) {
     navigator.clipboard.writeText
         ("BdCvFFEJaehjxXC3UbjiQaCZXYUh1ZWMRFfagaSeR22L");
 
-    button.classList.add('copied');
-    button.textContent = 'COPIED!';
+     button.classList.add('copied');
 
-    // Возвращаем текст кнопки обратно через 2 секунды
     setTimeout(() => {
         button.classList.remove('copied');
-        button.textContent = 'COPY';
-    }, 4000);
+    }, 2000);
 }

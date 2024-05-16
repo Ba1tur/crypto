@@ -2065,7 +2065,7 @@ header.absolute {
   z-index: 100;
   margin: -200px 0 0 -200px;
   background: #ffffff;
-  background: url(../icon/preload.png) center center no-repeat;
+  background: url(../icon/Infinity@1x-1.1s-200px-200px.svg) center center no-repeat;
   animation: preload 1s linear infinite alternate;
   animation-name: bounceIn;
 }
